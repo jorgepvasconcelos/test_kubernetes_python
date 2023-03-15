@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: fast-api
-        image: fastapi-kubernetes
+        image: 0909197502/fast-api-image
         resources:
           limits:
             memory: "128Mi"
